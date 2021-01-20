@@ -25,7 +25,8 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: darkolivegreen;
     border-style: dotted;
     border width: 10px;"> 
-    </p>
+    
+    text with a border that uses dotted lines</p>
 
     <style>
         table, td, th {
@@ -34,7 +35,6 @@
         </style>
         </head>
         <body>
-
 
         <table>
           <tr>
@@ -50,40 +50,37 @@
             <td>Lui</td>
           </tr>
         </table>
-
-
-
-
-
-
-
-
-
-        <style> 
-            div {
-              width: 100px;
-              height: 100px;
-              position: relative;
-              background-color: red;
-              animation-name: example;
-              animation-duration: 4s;
-            }
-            
-            @keyframes example {
-              0%   {background-color: red; left:0px; top:0px;}
-              25%  {background-color: blue; left:0px; top:200px;}
-              50%  {background-color: green; left:200px; top:200px;}
-              75%  {background-color: yellow; left:200px; top:0px;}
-              100% {background-color: red; left:0px; top:0px;}
-            }
-            </style>
-            </head>
-            <body>
-            
-            <div></div>
-            
-            
             
     </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="container">
+      <img src="video/coffee.jpeg" alt="coffee" style="width:30%;">
+      <div class="centered">C O F F E E</div>
+    </div>
+    
 
+    <style>
+        img.ex1 {
+          margin: 35px;}
+        </style> 
+    <img class= "ex1" src="video/coffeeguide.JPG" alt="coffee" style="width:30%;">
+
+    
 </html>
